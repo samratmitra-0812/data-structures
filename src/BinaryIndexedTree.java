@@ -56,6 +56,7 @@ public class BinaryIndexedTree {
 		
 		BinaryIndexedTree bit = new BinaryIndexedTree(10);
 		bit.update(1, 1);
+		
 		System.out.println(bit.getSum(9));
 		bit.update(4, 1);
 		System.out.println(bit.getSum(9));
