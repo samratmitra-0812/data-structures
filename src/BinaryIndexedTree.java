@@ -18,8 +18,9 @@ public class BinaryIndexedTree {
 	}
 	
 	public void build(int[] arr) {
-		for(int i = 0; i < arr.length; i++) 
+		for(int i = 0; i < arr.length; i++) {
             update(i, arr[i]);
+		}
 	}
 	
 	public int getSum(int index) {
